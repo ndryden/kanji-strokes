@@ -1,0 +1,23 @@
+This will generate stroke order diagrams from KanjiVG data.
+
+They can be customized slightly by editing the variables at the top of the
+genstrokes.py file.
+
+To generate, just run ./genstrokes.py . Files are written to the strokes
+directory by default.
+
+This program will need Python 3 and lxml.
+
+License
+-------
+This program and the stroke diagrams produced are Copyright (c) 2014 Nikoli
+Dryden. All rights reserved.
+
+The source code is licensed under a 3-clause BSD License. See LICENSE.BSD for
+further information. The stroke diagrams produced by this program are licensed
+under the Creative Commons Attribution-Share Alike 3.0 license:
+http://creativecommons.org/licenses/by-sa/3.0/
+See LICENSE.CCSA for further information.
+
+This relies upon KanjiVG (http://kanjivg.tagaini.net/) to generate the stroke
+diagrams.
