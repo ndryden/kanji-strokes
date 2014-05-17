@@ -148,7 +148,7 @@ def make_diagram(kanji):
             mat = shift_transform(numbers[j].attrib['transform'],
                                   cur_row, cur_col)
             etree.SubElement(sn_base, 'text',
-                             transform = mat).text = str(j)
+                             transform = mat).text = str(j + 1)
         # Add the circle to the current stroke.
         new_d, x, y = shift_path(paths[j].attrib['d'], cur_row, cur_col)
         base.append(circle(x, y))
